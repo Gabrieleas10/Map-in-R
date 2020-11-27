@@ -5,6 +5,7 @@ library(readxl)
 
 # setting path work directory
 setwd("C:/Users/GABRIEL/Desktop/TCC/")
+getwd()
 
 # select plot state in Brazil
 CE <- read_state(code_state = 'CE')
